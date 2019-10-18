@@ -59,11 +59,16 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private bool IsCollidedGround(Collision2D collision)
     {
         Collider2D myCollider = collision.contacts[0].otherCollider;
         Collider2D otherCollider = collision.contacts[0].collider;
-        if (otherCollider.tag == "Ground" && myCollider.name == "CharacterLeg")
+        return (otherCollider.tag == "Ground" && myCollider.name == "CharacterLeg");
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (IsCollidedGround(collision))
         {
             jumpCount = 0;
         }
