@@ -1,0 +1,941 @@
+fileFormatVersion: 2
+guid: 6668742ae031064438072ae398ede2e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1062261817053349388
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_0
+  - first:
+      213: -7384640429307911378
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_1
+  - first:
+      213: 2525852460092625460
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_2
+  - first:
+      213: -994774698295253604
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_3
+  - first:
+      213: -7404710509409388615
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_4
+  - first:
+      213: 7755346439745305265
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_5
+  - first:
+      213: -393642614817033413
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_6
+  - first:
+      213: 5689709882896893301
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_7
+  - first:
+      213: 2134400582870427847
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_8
+  - first:
+      213: -2362437870511739119
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_9
+  - first:
+      213: 4495689289084458793
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_10
+  - first:
+      213: -6046226130943629209
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_11
+  - first:
+      213: -7467794525880190946
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_12
+  - first:
+      213: -5391405891380828970
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_13
+  - first:
+      213: -2443621918605594807
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_14
+  - first:
+      213: -8400145804891171815
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_15
+  - first:
+      213: 3284685600191124212
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_16
+  - first:
+      213: 5554213883820063535
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_17
+  - first:
+      213: -1701004734537975040
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_18
+  - first:
+      213: 8893093371488405827
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_19
+  - first:
+      213: 4121788048316812818
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_20
+  - first:
+      213: 988880182430411183
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_21
+  - first:
+      213: -73090378623020874
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_22
+  - first:
+      213: 1256770966825955340
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_23
+  - first:
+      213: 6474497345488087237
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_24
+  - first:
+      213: -1976667859792272579
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_25
+  - first:
+      213: -1339435310744473883
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_26
+  - first:
+      213: 8598772732387260392
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_27
+  - first:
+      213: 8746634409847611489
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_28
+  - first:
+      213: 4733590773470019182
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_29
+  - first:
+      213: 5867160985286012505
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_30
+  - first:
+      213: 6475974602098624554
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_31
+  - first:
+      213: 4615971647181060628
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_32
+  - first:
+      213: -3042829120412642137
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_33
+  - first:
+      213: 4208271140102784113
+    second: PC Computer - Touhou Eiyashou Imperishable Night - Characters_34
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 227
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100acb17a59e47a45805cf169c9ea113
+      internalID: -1062261817053349388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 227
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b846b926aadf0204e8f4173eb83f2d40
+      internalID: -7384640429307911378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 227
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db785495c005ff149bc9a235744e1922
+      internalID: 2525852460092625460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 227
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407ea7e155f7f4646abb46a6057255db
+      internalID: -994774698295253604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 225
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08487f521e98c7a449a4a2f07353d1c8
+      internalID: -7404710509409388615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 225
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7249048a4750a9f48b5db5bdb3b35135
+      internalID: 7755346439745305265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 225
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf3590b3875e754498b74430b397d31
+      internalID: -393642614817033413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 225
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd746e9d3abf914f931e4f60e12bb50
+      internalID: 5689709882896893301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 181
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f27d9666db04eb41a74179971cda34b
+      internalID: 2134400582870427847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 180
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28da12b1940421a438a70426c2cfaa07
+      internalID: -2362437870511739119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e210044c5428e714293d31a81b332c35
+      internalID: 4495689289084458793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 179
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b7f9e5541b6fc45975bd6c2248d620
+      internalID: -6046226130943629209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 179
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42193dfd0355d841929aa6078f51603
+      internalID: -7467794525880190946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 179
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcac321f196d8fa40beab6991b9c5a6e
+      internalID: -5391405891380828970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 179
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02e3d4c8875680409c45a5b0191230a
+      internalID: -2443621918605594807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 129
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b40ca11f9794d4ea40decd3624b081
+      internalID: -8400145804891171815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 129
+        width: 95
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bc371507f4aea409163231dcf8ff81
+      internalID: 3284685600191124212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_17
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 129
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d79a3715faf9fc49ad97e4dfd83fb1b
+      internalID: 5554213883820063535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_18
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 129
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69ab6bf725d73840bad61f966f3b61c
+      internalID: -1701004734537975040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_19
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 129
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fe314373202e849ba3e5272ea58a82
+      internalID: 8893093371488405827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 115
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b76b76c8260cf4ea7ee8f5a1915b70
+      internalID: 4121788048316812818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 85
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8624973bf79b7bf4f9ec923f3c86d321
+      internalID: 988880182430411183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_22
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 84
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac7eb576d1603346b1801be74cd71f3
+      internalID: -73090378623020874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_23
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 84
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0711f7d4fd64fe844807499c459b75c5
+      internalID: 1256770966825955340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 101
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d037656b4a26e4d9ed01aa6028e833
+      internalID: 6474497345488087237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 67
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35085af624ffb044688b5410fbf94924
+      internalID: -1976667859792272579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_26
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 83
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02794f9d702884d48af5a78bcead7296
+      internalID: -1339435310744473883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 53
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9f33dfbe3fbc14eae7cfb02aef477a
+      internalID: 8598772732387260392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_28
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 36
+        width: 128
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dcc1cce31efe4469068fabb45ae987
+      internalID: 8746634409847611489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 10
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5bc1101648c1043917034d8972d19a
+      internalID: 4733590773470019182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 11
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c65a630ef227974ca61d523fba29f05
+      internalID: 5867160985286012505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_31
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 10
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0b3980be6d3c64c913686846b682b1
+      internalID: 6475974602098624554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_32
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 10
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a764addca7439b749af31f460379a9ce
+      internalID: 4615971647181060628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_33
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 10
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a48e3f4c76c54458f928fa88973112
+      internalID: -3042829120412642137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Eiyashou Imperishable Night - Characters_34
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 11
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed74362b856e3a4c97012ed17438dc0
+      internalID: 4208271140102784113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 27c7fc905de024747bc6eb98ff0e3ded
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
