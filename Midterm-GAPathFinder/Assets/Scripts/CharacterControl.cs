@@ -19,7 +19,7 @@ public class CharacterControl : MonoBehaviour
     public float bulletForce;
 
     private int score = 0;
-    private int lives = 2;
+    private int lives = 3;
 
     public Text scoreText;
     public Text livesText;
@@ -33,6 +33,10 @@ public class CharacterControl : MonoBehaviour
     public Color invulnerableColor;
     public Color normalColor;
 
+    public GameObject shield;
+
+    public GameManager gm;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +46,7 @@ public class CharacterControl : MonoBehaviour
         livesText.text = "Lives: " + lives;
 
         Respawn();
+        gm.StartLevel();
     }
 
     // Update is called once per frame
@@ -51,7 +56,7 @@ public class CharacterControl : MonoBehaviour
         angularInput = Input.GetAxis("Horizontal");
 
         // Fire
-        if (!isDead && Input.GetButtonDown("Fire1"))
+        if (!isDead && gm.isShootable && Input.GetButtonDown("Fire1"))
         {
             GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
             newBullet.GetComponent<Rigidbody2D>().AddRelativeForce(Vector2.up * bulletForce);
@@ -91,40 +96,53 @@ public class CharacterControl : MonoBehaviour
         transform.position = Vector2.zero;
         transform.rotation = Quaternion.identity;
 
+        GameObject tempShield = Instantiate(shield, transform.position, Quaternion.identity);
+        Destroy(tempShield, 3.0f);
+
+        Invoke("Vulnerable", 3.0f);
+
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
         sr.enabled = true;
-        sr.color = invulnerableColor;
-
-        Invoke("Invulnerable", 5.0f);
     }
 
-    void Invulnerable()
+    void Vulnerable()
     {
         isDead = false;
-        GetComponent<SpriteRenderer>().color = normalColor;
-        GetComponent<Collider2D>().enabled = true;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!isDead && collision.relativeVelocity.magnitude > deathForce)
         {
-            lives -= 1;
-            livesText.text = "Lives: " + lives;
+            GetHit();
+        }
+    }
 
-            hitAudio.Play();
-            GameObject ex = Instantiate(explosion, transform.position, transform.rotation);
-            Destroy(ex, 1.0f);
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!isDead && collision.CompareTag("EnemyBullet"))
+        {
+            Destroy(collision.gameObject);
+            GetHit();
+        }
+    }
 
-            isDead = true;
-            GetComponent<SpriteRenderer>().enabled = false;
-            GetComponent<Collider2D>().enabled = false;
-            Invoke("Respawn", 1.0f);
+    private void GetHit()
+    {
+        lives -= 1;
+        livesText.text = "Lives: " + lives;
 
-            if (lives <= 0)
-            {
-                GameOver();
-            }
+        hitAudio.Play();
+        GameObject ex = Instantiate(explosion, transform.position, transform.rotation);
+        Destroy(ex, 1.0f);
+
+        isDead = true;
+        GetComponent<SpriteRenderer>().enabled = false;
+        Invoke("Respawn", 1.0f);
+
+        if (lives <= 0)
+        {
+            GameOver();
         }
     }
 
