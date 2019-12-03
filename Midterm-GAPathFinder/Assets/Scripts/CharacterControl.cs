@@ -61,7 +61,7 @@ public class CharacterControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        slider.value = 1f - (Time.time - lastShot) / currentTimeBetweenShot;
+        slider.value = (Time.time - lastShot) / currentTimeBetweenShot;
 
         linearInput = Input.GetAxis("Vertical");
         angularInput = Input.GetAxis("Horizontal");
@@ -147,7 +147,7 @@ public class CharacterControl : MonoBehaviour
             else if (collision.CompareTag("PowerUp"))
             {
                 Destroy(collision.gameObject);
-                currentTimeBetweenShot = Mathf.Max(currentTimeBetweenShot - 0.05f, timeBetweenShotMin);
+                currentTimeBetweenShot = Mathf.Max(currentTimeBetweenShot - 0.1f, timeBetweenShotMin);
             }
         }
     }
@@ -181,10 +181,5 @@ public class CharacterControl : MonoBehaviour
     {
         CancelInvoke();
         gameOverPanel.SetActive(true);
-    }
-
-    public void Restart()
-    {
-        SceneManager.LoadScene("Game");
     }
 }
