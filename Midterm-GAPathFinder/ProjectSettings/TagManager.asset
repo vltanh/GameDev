@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - GameManager
   - EnemyBullet
+  - PowerUp
   layers:
   - Default
   - TransparentFX

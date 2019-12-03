@@ -645,6 +645,8 @@ MonoBehaviour:
   normalColor: {r: 1, g: 1, b: 1, a: 1}
   shield: {fileID: 6922000422557019492, guid: 6bc0146bf1b6cad4db54d3487c9d2196, type: 3}
   gm: {fileID: 1024312735}
+  timeBetweenShotMax: 2
+  timeBetweenShotMin: 0.5
 --- !u!50 &530367056
 Rigidbody2D:
   serializedVersion: 4
@@ -970,6 +972,9 @@ MonoBehaviour:
     type: 3}
   warningArea: {fileID: 8050508460678837702, guid: 119645d1e062dfc45bac92469901c798,
     type: 3}
+  powerUp: {fileID: 5824423308693212800, guid: c6821f43063ff3643a52f3060d7d4d26, type: 3}
+  powerUpSpawnTime: 2
+  powerUpTime: 10
 --- !u!4 &1024312736
 Transform:
   m_ObjectHideFlags: 0

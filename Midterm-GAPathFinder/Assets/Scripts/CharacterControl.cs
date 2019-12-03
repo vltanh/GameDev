@@ -37,6 +37,11 @@ public class CharacterControl : MonoBehaviour
 
     public GameManager gm;
 
+    public float timeBetweenShotMax = 2.0f;
+    public float timeBetweenShotMin = 0.5f;
+    private float currentTimeBetweenShot;
+    private float lastShot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +52,8 @@ public class CharacterControl : MonoBehaviour
 
         Respawn();
         gm.StartLevel();
+        lastShot = timeBetweenShotMax;
+        currentTimeBetweenShot = timeBetweenShotMax;
     }
 
     // Update is called once per frame
@@ -58,9 +65,13 @@ public class CharacterControl : MonoBehaviour
         // Fire
         if (!isDead && gm.isShootable && Input.GetButtonDown("Fire1"))
         {
-            GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
-            newBullet.GetComponent<Rigidbody2D>().AddRelativeForce(Vector2.up * bulletForce);
-            Destroy(newBullet, 3.0f);
+            if (Time.time > lastShot + currentTimeBetweenShot)
+            {
+                GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
+                newBullet.GetComponent<Rigidbody2D>().AddRelativeForce(Vector2.up * bulletForce);
+                Destroy(newBullet, 3.0f);
+                lastShot = Time.time;
+            }
         }
 
         // Screen warp
@@ -92,6 +103,7 @@ public class CharacterControl : MonoBehaviour
 
     void Respawn()
     {
+        currentTimeBetweenShot = timeBetweenShotMax;
         rigidBody.velocity = Vector2.zero;
         transform.position = Vector2.zero;
         transform.rotation = Quaternion.identity;
@@ -120,10 +132,19 @@ public class CharacterControl : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!isDead && collision.CompareTag("EnemyBullet"))
+        if (!isDead) 
         {
-            Destroy(collision.gameObject);
-            GetHit();
+            Debug.Log(collision.tag);
+            if (collision.CompareTag("EnemyBullet"))
+            {
+                Destroy(collision.gameObject);
+                GetHit();
+            }
+            else if (collision.CompareTag("PowerUp"))
+            {
+                Destroy(collision.gameObject);
+                currentTimeBetweenShot = Mathf.Max(currentTimeBetweenShot - 0.05f, timeBetweenShotMin);
+            }
         }
     }
 
