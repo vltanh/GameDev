@@ -42,6 +42,8 @@ public class CharacterControl : MonoBehaviour
     private float currentTimeBetweenShot;
     private float lastShot;
 
+    public Slider slider;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +61,8 @@ public class CharacterControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        slider.value = 1f - (Time.time - lastShot) / currentTimeBetweenShot;
+
         linearInput = Input.GetAxis("Vertical");
         angularInput = Input.GetAxis("Horizontal");
 
@@ -181,6 +185,6 @@ public class CharacterControl : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Game");
     }
 }

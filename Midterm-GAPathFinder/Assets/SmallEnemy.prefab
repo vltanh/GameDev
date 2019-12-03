@@ -70,7 +70,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -771771011
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -5081627575059508221, guid: 2e5c5cd2e8ac18e428287b901faa8ddf,
     type: 3}
@@ -140,7 +140,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.19554666
+  m_Mass: 0.12566371
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -170,6 +170,7 @@ MonoBehaviour:
   enemySmall: {fileID: 924614531878165335}
   point: 5
   explosion: {fileID: 1337198075554910, guid: 25c7aa9ad705fe143a4d71c1c8deb7d4, type: 3}
+  gm: {fileID: 0}
 --- !u!58 &-3383653049342683997
 CircleCollider2D:
   m_ObjectHideFlags: 0

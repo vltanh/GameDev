@@ -102,7 +102,7 @@ MonoBehaviour:
   bulletSpeed: 100
   player: {fileID: 0}
   bullet: {fileID: 4692829120341410909, guid: 05ceb30090ada704b98f06282b91cb42, type: 3}
-  point: 50
+  point: 40
   gm: {fileID: 0}
   explosion: {fileID: 1337198075554910, guid: 25c7aa9ad705fe143a4d71c1c8deb7d4, type: 3}
 --- !u!50 &1669616686035197612
